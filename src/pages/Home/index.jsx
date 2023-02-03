@@ -1,3 +1,8 @@
+/* Home page
+  Build the main welcome page building one housing card per housing found. 
+  Currently the housings are stored in an array of objects.
+  Eventually, when a backend DB & API will be available, this piece will need to be revied to inculde the fetch piece 
+*/
 import "../../utils/styles/HomeStyle.css";
 import { Link } from "react-router-dom";
 import { homeGallery } from "../../datas/homeGallery";

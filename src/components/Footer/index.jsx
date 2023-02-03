@@ -1,3 +1,6 @@
+/* Footer component
+  Data are enclosed in an external file. So if needs to change, do not need to amend the code.
+*/
 import { footerData } from "../../datas/footerData";
 import "../../utils/styles/FooterStyle.css";
 

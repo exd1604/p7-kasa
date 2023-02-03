@@ -1,3 +1,12 @@
+/* HousingCarousel component
+  Manage the housing images carousel.
+  Requirements:
+  - When there is only one picture, the left and right arrows are not displayed
+  - When first picture shown and left arrow clicked, then last picture is shown.
+  - Opposite logic with last picture shown and right array clicked. Then first picture is shown.
+  - The counter on bottom is not visible on mobile mode.
+  - Pictures are displayed as background of the block using a style tag
+*/
 import { useState } from "react";
 import arrowLeft from "../../../assets/arrowLeft.png";
 import arrowRight from "../../../assets/arrowRight.png";

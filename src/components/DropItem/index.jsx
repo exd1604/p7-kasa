@@ -1,3 +1,8 @@
+/*  DropItem component
+  It gets a prop defining the component that called it.
+  This allows to have a "caller name" class used within CSS to manage specific CSS properties. (i.e: Width of the block)  
+*/
+
 import "../../utils/styles/DropItemStyle.css";
 import { useState } from "react";
 import arrowDown from "../../assets/arrowDown.png";

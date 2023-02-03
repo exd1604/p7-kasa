@@ -1,3 +1,7 @@
+/* Error page
+  Whenever a route is not setup in the router or a housing id is not found, the error page is thrown.
+*/
+
 import "../../utils/styles/ErrorStyle.css";
 import { Link } from "react-router-dom";
 import Header from "../../components/Header";

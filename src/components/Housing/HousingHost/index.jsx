@@ -1,3 +1,7 @@
+/* Host component
+  Receive the host name & picture as prop (Object)
+*/
+
 function HousingHost({ host }) {
   return (
     <div className="housing-header-2-host">

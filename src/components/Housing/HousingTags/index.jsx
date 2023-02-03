@@ -1,3 +1,6 @@
+/* HousingTags component
+  Get the tags as an array in props
+*/
 function HousingTags({ tags }) {
   return (
     <div className="housing-header-1-tags">

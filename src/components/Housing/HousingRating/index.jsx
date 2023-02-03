@@ -1,3 +1,6 @@
+/* HousingRating component
+  Manage the 5 rating stars building an array of 5 booleans.
+*/
 import starActive from "../../../assets/star_active.png";
 import starInactive from "../../../assets/star_inactive.png";
 

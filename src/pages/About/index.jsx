@@ -1,3 +1,8 @@
+/* About page
+  An array of objects created to manage the titles & Texts of each of the block.
+  Easy to add / Change / remove without changing anything in the code itself.
+*/
+
 import "../../utils/styles/AboutStyle.css";
 import DropItem from "../../components/DropItem";
 import Header from "../../components/Header";

@@ -1,3 +1,7 @@
+/* Header component
+  Self explainatory.
+  Calls the Navigation component
+*/
 import "../../utils/styles/HeaderStyle.css";
 import logoHeader from "../../assets/logoHeader.png";
 import Navigation from "../Navigation";

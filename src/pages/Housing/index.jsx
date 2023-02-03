@@ -1,3 +1,8 @@
+/* Housing page
+  Pulls the housing's id off the URL params
+  Seek for the details in the file containing the 20 subst of housings.
+  When not found redirect to error page
+*/
 import "../../utils/styles/HousingStyle.css";
 import { useParams, Navigate } from "react-router-dom";
 import Header from "../../components/Header";
