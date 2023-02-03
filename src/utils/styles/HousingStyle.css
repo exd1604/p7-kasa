@@ -190,6 +190,18 @@
 /* TABLETS */
 @media only screen and (min-width: 768px) and (max-width: 991px)
 { 
+    .housing-carousel-container-slide-arrow
+    {
+        width: 55px;
+        height: 55px;
+    }
+
+    .housing-header-2-rating img
+    {
+        width: 27px;
+        height: 27px;    
+    }
+
     .housing-drops
     {   
         flex-direction: column;
@@ -234,8 +246,7 @@
     .housing-carousel-container-slide-arrow
     {
         width: 24px;
-        height: 24px;
-        margin-left: 5px;
+        height: 24px;        
         opacity: 1;
     }
 
