@@ -8,7 +8,8 @@
 
 .footer-container
 {
-    width: 100%;    
+    width: 100%;  
+    min-width: 375px;  
     display: flex;
     flex-direction: column;
     justify-content: center;

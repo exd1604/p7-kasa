@@ -4,7 +4,7 @@
 function HousingTitle({ title, location }) {
   return (
     <div className="housing-header-1-title">
-      <h1>{title}</h1>
+      <h2>{title}</h2>
       <p>{location}</p>
     </div>
   );

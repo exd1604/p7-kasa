@@ -9,5 +9,5 @@ body *
     --secondary-color:  #ffffff;     
     --tertiary-color:  #000000;
     --quaternary-color:  #f7f7f7;
-    box-sizing: border-box;
+    box-sizing: border-box;        
 }

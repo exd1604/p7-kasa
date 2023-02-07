@@ -7,13 +7,20 @@ import "../../utils/styles/AboutStyle.css";
 import DropItem from "../../components/DropItem";
 import Header from "../../components/Header";
 import { aboutItemList } from "../../datas/aboutItemList";
+import Banner from "../../components/Banner";
+import BannerImage from "../../assets/aboutBanner.png";
 
 function About() {
   return (
     <div className="about-whole-page">
       <Header />
       <main className="about-main">
-        <div className="about-main-banner"></div>
+        <Banner
+          source={BannerImage}
+          alt="Banière page A Propos"
+          text=""
+          caller="about"
+        />
 
         {aboutItemList.map(({ id, title, text }) => (
           <div className="about-main-item-wrapper" key={id}>

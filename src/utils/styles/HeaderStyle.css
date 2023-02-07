@@ -1,26 +1,24 @@
 .header-container
 {   width: 95%;      
-    margin: 0 auto;
+    margin: 40px auto;
     display: flex;    
     justify-content: space-between;
-    align-content: center;    
-    background-color: transparent;     
+    align-content: center;        
 }
 
 .header-container-logo
 {
     width: 210px;    
-    padding: 30px 0;
+    height: 68px;
+    
 }
 
 /* MOBILES */
 @media screen and (max-width: 767px)
-{
-
-    .header-container
+{    
+    .header-container-logo
     {
-        flex-direction: column;
-        align-items: flex-start;
-        flex-shrink: 1;        
+        width: 145px;    
+        height: 47px;    
     }
 }
